@@ -14,9 +14,11 @@ import {
   Power
 } from 'lucide-react';
 
+import { GameChapter } from '../types';
+
 interface SecretSectionProps {
   onRestart: () => void;
-  onGoToChapter?: (chapter: 'CHARACTER_SELECT' | 'ACHIEVEMENTS' | 'TITLE') => void;
+  onGoToChapter?: (chapter: GameChapter) => void;
 }
 
 export const SecretSection: React.FC<SecretSectionProps> = ({ onRestart, onGoToChapter }) => {
