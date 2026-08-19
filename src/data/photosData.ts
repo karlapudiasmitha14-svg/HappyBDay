@@ -1,4 +1,10 @@
 import { PhotoMemory } from '../types';
+import image1 from '../assets/photos/image1.jpeg';
+import image2 from '../assets/photos/image2.jpeg';
+import image3 from '../assets/photos/image3.jpeg';
+import image4 from '../assets/photos/image4.png';
+import image5 from '../assets/photos/image5.jpeg';
+import image6 from '../assets/photos/image6.jpeg';
 
 export interface ExtendedPhotoMemory extends PhotoMemory {
   photoId: string;
@@ -18,8 +24,8 @@ export const PHOTO_MEMORIES: ExtendedPhotoMemory[] = [
     title: 'THE BANANA PROTOCOL & THE YELLOW SHIRT ERA',
     subtitle: 'EPISODE 001: The Dawn of Sibling Dynamics',
     caption: 'Little Anil in his iconic yellow shirt ("SALE LSS NAVY CREW 470") staring into the distance with pure confusion while baby sister sits in the armchair holding a banana like a legendary ancient artifact.',
-    placeholderPath: '/assets/photos/childhood-01.jpg',
-    originalFileName: 'WhatsApp Image 2026-08-18 at 6.58.13 PM.jpeg',
+    placeholderPath: image1,
+    originalFileName: 'image1.jpeg',
     imageAlt: 'Young Anil in yellow shirt standing next to baby sister holding a banana',
     tags: ['ERA: TODDLER SIBLINGS', 'WEAPON: SACRED BANANA', 'OUTFIT: LEGENDARY YELLOW SHIRT'],
     mangaQuote: '"He did not know what the banana was for. But he knew he wanted it."',
@@ -35,8 +41,8 @@ export const PHOTO_MEMORIES: ExtendedPhotoMemory[] = [
     title: 'THE FORCED SWEET FEEDING CEREMONY',
     subtitle: 'EPISODE 002: Rare Peacetime Footage',
     caption: 'Historical documentary evidence: Sister gently feeding a sweet directly into Anil\'s mouth. Anil opened his mouth without hesitation because when free food is deployed, combat ceases immediately.',
-    placeholderPath: '/assets/photos/childhood-02.jpg',
-    originalFileName: 'WhatsApp Image 2026-08-18 at 6.58.54 PM.jpeg',
+    placeholderPath: image2,
+    originalFileName: 'image2.jpeg',
     imageAlt: 'Sister in magenta dress feeding sweet into young Anil\'s mouth',
     tags: ['ARC: FOOD TRUCE', 'FOOD RADAR: 100%', 'SWEET FEEDING: SUCCESS'],
     mangaQuote: '"A truce was signed in the universal currency of sugar and snacks."',
@@ -52,8 +58,8 @@ export const PHOTO_MEMORIES: ExtendedPhotoMemory[] = [
     title: 'THE SUPREME "TOUCH MY FEET" POWER TRIP',
     subtitle: 'EPISODE 003: The Festival Sibling Hierarchy',
     caption: 'The single greatest moment of Anil\'s existence: Sister bowing down to touch his feet for traditional blessings. Anil, dressed in a royal red shirt and holding the yellow tray, looks down with the smirk of an ancient emperor.',
-    placeholderPath: '/assets/photos/family-01.jpg',
-    originalFileName: 'WhatsApp Image 2026-08-18 at 6.58.30 PM.jpeg',
+    placeholderPath: image3,
+    originalFileName: 'image3.jpeg',
     imageAlt: 'Sister bowing down touching Anil\'s feet while he stands in red shirt holding yellow tray',
     tags: ['CEREMONY: ROYAL BLESSINGS', 'AURA: +999999', 'SISTER REGRET: 100%'],
     mangaQuote: '"Bow before your older brother, mortal! Blessings granted with 50% discount."',
@@ -69,8 +75,8 @@ export const PHOTO_MEMORIES: ExtendedPhotoMemory[] = [
     title: 'UNBREAKABLE SPIRIT DERP MODE (TOP SECRET 😂)',
     subtitle: 'EPISODE 004: 3 AM Goblin Evolution',
     caption: 'T-shirt says "CONQUER UNBREAKABLE SPIRIT", but the ultra-wide stretched smile says "I haven\'t slept in 48 hours and I just lost my 12th Free Fire match in a row". Peak derp unlocked.',
-    placeholderPath: '/assets/photos/funny-01.jpg',
-    originalFileName: 'Screenshot 2025-06-23 131818.png',
+    placeholderPath: image4,
+    originalFileName: 'image4.png',
     imageAlt: 'Hilarious wide grin distorted filter selfie of Anil wearing Unbreakable Spirit t-shirt',
     tags: ['CLASSIFIED: TOP SECRET', 'DERP LEVEL: OVER 9000', 'SPIRIT: UNBREAKABLY WEIRD'],
     mangaQuote: '"When the coder stares into the void, the void smiles back like this."',
@@ -88,8 +94,8 @@ export const PHOTO_MEMORIES: ExtendedPhotoMemory[] = [
     title: 'THE "I WILL CODE LATER" BEDROOM CHRONICLES',
     subtitle: 'EPISODE 005: Tactical Horizontal Hibernation',
     caption: 'The exact face Anil makes when asked: "Did you finish the assignment?" or "Can you help clean the living room?". Maximum coziness, zero guilt, full chill mode engaged.',
-    placeholderPath: '/assets/photos/lazy-01.jpg',
-    originalFileName: 'WhatsApp Image 2026-08-18 at 6.57.35 PM.jpeg',
+    placeholderPath: image5,
+    originalFileName: 'image5.jpeg',
     imageAlt: 'Cozy selfie of Anil resting horizontally on bed looking at camera',
     tags: ['MODE: HORIZONTAL CODER', 'PRODUCTIVITY: 0%', 'COZINESS: 100%'],
     mangaQuote: '"Lying down is simply a tactical recharge for my next big gaming clutch."',
@@ -105,8 +111,8 @@ export const PHOTO_MEMORIES: ExtendedPhotoMemory[] = [
     title: 'LEVEL 22: THE STREET PROTAGONIST (RONIN RIDER)',
     subtitle: 'EPISODE 006: Present Day — Main Character Energy',
     caption: 'Sitting on the TVS Ronin in a black jacket, gazing into the distance like a shonen anime protagonist in the middle of an epic opening theme. Level 22 achieved.',
-    placeholderPath: '/assets/photos/current-01.jpg',
-    originalFileName: 'WhatsApp Image 2026-08-18 at 6.59.21 PM.jpeg',
+    placeholderPath: image6,
+    originalFileName: 'image6.jpeg',
     imageAlt: 'Anil sitting cool on his TVS Ronin bike at night in black jacket',
     tags: ['LEVEL 22: COMPLETED', 'RIDE: TVS RONIN', 'ROLE: GREATEST SUPPORTER'],
     mangaQuote: '"The road ahead is long, but with a loyal sister and a fast bike, nothing can stop him."',
@@ -122,11 +128,11 @@ export const PHOTO_PLACEHOLDER_INSTRUCTIONS = {
   header: 'CUSTOM PHOTO GALLERY SYSTEM',
   description: 'Your uploaded photos are seamlessly integrated into the story arc with hilarious sibling commentary!',
   paths: [
-    { key: 'childhood-01.jpg', desc: 'Baby sister holding banana & toddler Anil in yellow shirt' },
-    { key: 'childhood-02.jpg', desc: 'Sister feeding sweet to young Anil' },
-    { key: 'family-01.jpg', desc: 'Sister touching Anil\'s feet in blessing with yellow tray' },
-    { key: 'funny-01.jpg', desc: 'Unbreakable Spirit wide smile derp selfie' },
-    { key: 'lazy-01.jpg', desc: 'Cozy lying down bedroom selfie' },
-    { key: 'current-01.jpg', desc: 'Anil on the TVS Ronin motorcycle' }
+    { key: 'image1.jpeg', desc: 'Baby sister holding banana & toddler Anil in yellow shirt' },
+    { key: 'image2.jpeg', desc: 'Sister feeding sweet to young Anil' },
+    { key: 'image3.jpeg', desc: 'Sister touching Anil\'s feet in blessing with yellow tray' },
+    { key: 'image4.png', desc: 'Unbreakable Spirit wide smile derp selfie' },
+    { key: 'image5.jpeg', desc: 'Cozy lying down bedroom selfie' },
+    { key: 'image6.jpeg', desc: 'Anil on the TVS Ronin motorcycle' }
   ]
 };

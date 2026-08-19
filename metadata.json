@@ -1,6 +1,6 @@
 {
-  "name": "The Birthday Arc — Anil (Level 22)",
-  "description": "An interactive 90s Anime × Retro RPG Birthday Experience for Anil from his sister.",
+  "name": "The Birthday Arc ",
+  "description": "A little suprise from me",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
